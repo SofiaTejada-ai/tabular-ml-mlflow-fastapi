@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+mlruns/
+artifacts/*
+!artifacts/shap/
+!artifacts/shap/*.png
+!artifacts/shap/shap_meta.json
+
+# optional streamlit cache
+.streamlit/

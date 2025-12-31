@@ -1,0 +1,7 @@
+{
+  "n_rows_explained": 200,
+  "artifacts": {
+    "shap_summary_bar": "artifacts/shap/shap_summary_bar.png",
+    "shap_summary_beeswarm": "artifacts/shap/shap_summary_beeswarm.png"
+  }
+}
