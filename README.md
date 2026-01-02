@@ -1,6 +1,6 @@
 # End-to-End Tabular ML System (LightGBM, Optuna, MLflow, SHAP, FastAPI, Streamlit)
 
-This repo is a **mini real-world ML product pipeline**: it trains a tabular classifier, tunes it automatically, tracks experiments, generates explainability plots, and serves predictions through an API + simple UI.
+This repo is a **mini real-world ML product pipeline**: it trains a tabular classifier, tunes it automatically, tracks experiments, generates explainability plots, and serves predictions through an API and simple UI.
 
 **What you can do here**
 - Train a strong tabular model (**LightGBM**)
@@ -168,4 +168,5 @@ Do NOT commit .venv/ or mlruns/
 Usually do NOT commit artifacts/model.joblib
 
 It is useful to commit artifacts/shap/*.png so the README renders explainability visuals
+
 
